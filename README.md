@@ -5,7 +5,7 @@ Automatic resizing of Android drawables from one density to all others
 ## Requirements
 
  * Windows
- * * ImageMagick
+   * ImageMagick
 
 ## License
 
