@@ -63,7 +63,7 @@ echo.
 
 if exist %PATH_LDPI% (
 	echo Directory %PATH_LDPI% does already exist.
-	echo Shutting down ...
+	echo Shutting down
 	pause
 	exit
 ) else (
@@ -71,7 +71,7 @@ if exist %PATH_LDPI% (
 )
 if exist %PATH_MDPI% (
 	echo Directory %PATH_MDPI% does already exist.
-	echo Shutting down ...
+	echo Shutting down
 	pause
 	exit
 ) else (
@@ -79,7 +79,7 @@ if exist %PATH_MDPI% (
 )
 if exist %PATH_HDPI% (
 	echo Directory %PATH_HDPI% does already exist.
-	echo Shutting down ...
+	echo Shutting down
 	pause
 	exit
 ) else (
@@ -87,7 +87,7 @@ if exist %PATH_HDPI% (
 )
 if exist %PATH_XHDPI% (
 	echo Directory %PATH_XHDPI% does already exist.
-	echo Shutting down ...
+	echo Shutting down
 	pause
 	exit
 ) else (
@@ -95,7 +95,7 @@ if exist %PATH_XHDPI% (
 )
 if exist %PATH_XXHDPI% (
 	echo Directory %PATH_XXHDPI% does already exist.
-	echo Shutting down ...
+	echo Shutting down
 	pause
 	exit
 ) else (
@@ -103,7 +103,7 @@ if exist %PATH_XXHDPI% (
 )
 if exist %PATH_XXXHDPI% (
 	echo Directory %PATH_XXXHDPI% does already exist.
-	echo Shutting down ...
+	echo Shutting down
 	pause
 	exit
 ) else (
@@ -133,6 +133,6 @@ for %%f in (*.png) do (
 )
 
 echo.
-echo Finished ...
+echo Finished
 
 pause
