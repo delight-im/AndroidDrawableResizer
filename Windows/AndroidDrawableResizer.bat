@@ -1,3 +1,7 @@
+REM AndroidDrawableResizer (https://github.com/delight-im/AndroidDrawableResizer)
+REM Copyright (c) delight.im (https://www.delight.im/)
+REM Licensed under the MIT License (https://opensource.org/licenses/MIT)
+
 @echo off
 
 REM ### CONFIGURATION ### BEGIN
