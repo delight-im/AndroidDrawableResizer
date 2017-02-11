@@ -1,10 +1,10 @@
-REM AndroidDrawableResizer (https://github.com/delight-im/AndroidDrawableResizer)
-REM Copyright (c) delight.im (https://www.delight.im/)
-REM Licensed under the MIT License (https://opensource.org/licenses/MIT)
+@REM AndroidDrawableResizer (https://github.com/delight-im/AndroidDrawableResizer)
+@REM Copyright (c) delight.im (https://www.delight.im/)
+@REM Licensed under the MIT License (https://opensource.org/licenses/MIT)
 
 @echo off
 
-REM ### CONFIGURATION ### BEGIN
+@REM ### BEGIN CONFIGURATION ###
 set IMAGE_MAGICK_PATH="C:\Libraries\ImageMagick\convert.exe"
 set PATH_LDPI=drawable-ldpi
 set PATH_MDPI=drawable-mdpi
@@ -12,7 +12,7 @@ set PATH_HDPI=drawable-hdpi
 set PATH_XHDPI=drawable-xhdpi
 set PATH_XXHDPI=drawable-xxhdpi
 set PATH_XXXHDPI=drawable-xxxhdpi
-REM ### CONFIGURATION ### END
+@REM ### END CONFIGURATION ###
 
 echo Resize all PNGs in this script's folder for all densities?
 echo Type current density of those PNGs below. Example: mdpi
