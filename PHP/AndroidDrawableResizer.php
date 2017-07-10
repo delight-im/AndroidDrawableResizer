@@ -19,12 +19,12 @@ define('IMAGE_MAGICK_BINARY_PATH', 'convert'); // or '/path/to/convert' or 'C:\P
 
 $densityPaths = [
 									'ldpi' => 'drawable-ldpi',
-								 	'mdpi' => 'drawable-mdpi',
-								  'hdpi' => 'drawable-hdpi',
+									'mdpi' => 'drawable-mdpi',
+									'hdpi' => 'drawable-hdpi',
 									'xhdpi' => 'drawable-xhdpi',
 									'xxhdpi' => 'drawable-xxhdpi',
 									'xxxhdpi' => 'drawable-xxxhdpi'
-			 				];
+							];
 
 
 $currentInputDirectory = getcwd() === false ? '' : getcwd();
