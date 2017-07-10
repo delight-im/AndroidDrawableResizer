@@ -164,6 +164,7 @@ xecho('Processing: ');
 
 if($oneFile){
 
+	$Processedfiles= 1;
 	foreach($densityPaths as $density => $path){
 		if (isset($percent[$density])) {
 			exec(IMAGE_MAGICK_BINARY_PATH . ' "' . realpath($oneFile) . '" -resize ' . $percent[$density] . '% "' . outputDirectory($path . '/' . basename($oneFile)) . '"');
@@ -188,7 +189,7 @@ if($oneFile){
 
 }
 
-xecho('Finished procssing ('.$Processedfiles.' files), output folder: ' . outputDirectory(''));
+xecho('Finished procssing ('.$Processedfiles.' files), output folder: ' . outputDirectory());
 
 
 /**
